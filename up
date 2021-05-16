@@ -1,0 +1,20 @@
+sudo apt-get update
+sudo apt-get update 
+sudo apt-get upgrade -y
+sudo apt install ubuntu-desktop
+sudo apt-get install xrdp 
+sudo systemctl enable xrdp 
+sudo ufw allow 3389/tcp s
+udo /etc/init.d/xrdp restart 
+sudo adduser admin1
+123456
+123456
+sudo usermod -aG sudo admin1
+sudo apt update
+sudo apt install vsftpd
+sudo systemctl start vsftpd
+sudo systemctl enable vsftpd
+sudo ufw allow 20/tcp
+sudo ufw allow 21/tcp
+sudo ufw status 
+sudo reboot
